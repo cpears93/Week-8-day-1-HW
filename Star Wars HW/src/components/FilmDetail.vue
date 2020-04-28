@@ -8,6 +8,8 @@
           <p><span>Episode Number</span>: {{film.episodeNumber}}</p>
           <p><span>Release Date</span>: {{film.releaseDate}}
           <p><span>Director</span>: {{film.director}}</p>
+          <p><span>Character Name</span>: {{film.characterName}}</p>
+          <p><span>Height</span>: {{film.characterHeight | toFixed (2) }}</p>
         </div>
         <div id="right">
           <img id="film-image" :src="film.image" :alt="film.name">
